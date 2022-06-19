@@ -12,8 +12,8 @@ const localMatrix = new THREE.Matrix4();
 const upVector = new THREE.Vector3(0, 1, 0);
 const z180Quaternion = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), Math.PI);
 const muzzleOffset = new THREE.Vector3(0, 0.1, 0.25);
-const muzzleFlashTime = 300;
-const bulletSparkTime = 300;
+const muzzleFlashTime = 1000;
+const bulletSparkTime = 2000;
 
 const emptyArray = [];
 const fnEmptyArray = () => emptyArray;
