@@ -76,7 +76,7 @@ export default e => {
   });
   decalMaterial.needsUpdate = true;
   // const debugMesh = [];
-  const debugDecalVertPos = false;
+  const debugDecalVertPos = true;
 
   const maxNumDecals = 128;
   const decalGeometry = new THREE.PlaneBufferGeometry(0.5, 0.5, 8, 8).toNonIndexed();
