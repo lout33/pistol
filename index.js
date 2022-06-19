@@ -36,7 +36,7 @@ export default e => {
   }; */
   const sounds = useSound();
   const soundFiles = sounds.getSoundFiles();
-  const soundIndex=soundFiles.combat.map(sound => sound.name).indexOf('combat/Colt45_Shot2.wav');
+  const soundIndex=soundFiles.combat.map(sound => sound.name).indexOf('combat/Ricochet4.wav');
   
   
   let pointLights = [];
