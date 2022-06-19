@@ -112,7 +112,7 @@ export default e => {
   let subApps = [null, null];
   e.waitUntil((async () => {
     {
-      let u2 = `https://webaverse.github.io/pixelsplosion/`;
+      let u2 = `https://lout33.github.io/pixelsplosion/`;
       if (/^https?:/.test(u2)) {
         u2 = '/@proxy/' + u2;
       }
