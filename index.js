@@ -62,7 +62,9 @@ export default e => {
 
   const debugGeo = new THREE.BoxGeometry( 0.01, 0.01, 0.01);
   const debugMat = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
-  const decalTextureName = "bulletHole.jpg";
+  // const decalTextureName = "bulletHole.jpg";
+  const decalTextureName = "explosion4.jpg";
+
   const decalTexture = textureLoader.load(`${import.meta.url.replace(/(\/)[^\/]*$/, '$1')}${ decalTextureName}`);
   // decalTexture.needsUpdate = true;
   const decalMaterial = new THREE.MeshPhysicalMaterial({
